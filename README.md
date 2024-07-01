@@ -1,7 +1,8 @@
 # Demo Spring Boot RESTful API
 
  ![Java CI with Maven](https://github.com/gitivanov/demo-springboot-rest/actions/workflows/maven.yml/badge.svg?branch=main)
- ![Quality Gate Status](https://sonarqube-server/api/project_badges/measure?project=project-key&metric=alert_status)
+ [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=FullStack-DevLab_demo-springboot-rest&metric=alert_status)](https://sonarcloud.io/dashboard?id=FullStack-DevLab_demo-springboot-rest)
+
 This is a demo project for a Spring Boot RESTful API.
 
 ## Table of Contents

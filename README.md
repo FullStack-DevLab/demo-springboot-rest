@@ -14,7 +14,7 @@ This is a demo project for a Spring Boot RESTful API.
 ## Prerequisites
 
 - Java 17
-- Maven
+- Gradle
 
 ## Installation
 Clone the repository:
@@ -27,10 +27,16 @@ cd demo-springboot-rest
 ```
 Build the project:
 ```bash
-mvn clean install
+ ./gradlew build 
 ```
 ## Usage
 To run the project, use the following command:
 ```bash
-mvn spring-boot:run
+ ./gradlew bootRun 
+```
+
+## Unit Tests
+To run the unit tests, use the following command:
+```bash
+ ./gradlew test 
 ```

@@ -9,7 +9,7 @@ plugins {
     `maven-publish`
     id("org.springframework.boot") version "3.3.1"
     id("io.spring.dependency-management") version "1.0.15.RELEASE"
-    id("org.sonarqube") version "3.3"
+    id("org.sonarqube") version "5.1.0.4882"
 }
 
 repositories {
@@ -31,6 +31,7 @@ dependencies {
     runtimeOnly(libs.com.h2database.h2)
     testImplementation(libs.org.springframework.boot.spring.boot.starter.test)
     testImplementation(libs.org.springframework.security.spring.security.test)
+
 }
 
 group = "devlab"
@@ -51,3 +52,15 @@ tasks.withType<JavaCompile>() {
 tasks.withType<Javadoc>() {
     options.encoding = "UTF-8"
 }
+
+//tasks.test {
+//    useJUnitPlatform()
+//    reports {
+//        junitXml.required.set(true)  // Enables JUnit XML generation
+//        junitXml.outputLocation.set(layout.buildDirectory.dir("test-results/test"))
+//        html.required.set(true)  // Enables HTML report generation
+//        html.outputLocation.set(layout.buildDirectory.dir("reports/tests"))
+//    }
+//}
+
+
